@@ -6,10 +6,12 @@ resources:
       trigger: none
 
 variables:
-  azureServiceConnection: 'azure-connection'
-  subscriptionId: 'YOUR-SUBSCRIPTION-ID'
-  resourceGroup: 'rg-az400-container-NAME'
+  tag: '$(Build.BuildId)'
+  resource-group: 'AZ400-EWebShop-JH'
   location: 'westeurope'
+  templateFile: '.azure/bicep/acr.bicep'
+  azureserviceconnection: 'azure subs'
+  subscriptionId: '58d59fb0-148e-4548-88dc-13de75d16e5a'
 
 stages:
 - stage: Build
