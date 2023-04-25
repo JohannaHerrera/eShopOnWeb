@@ -9,7 +9,7 @@ env:
   LOCATION: westeurope
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 58d59fb0-148e-4548-88dc-13de75d16e5a
-  WEBAPP-NAME: az400-webapp-eshoponwebJH
+  WEBAPP-NAME: az400-webapp-eshoponwebJHerrera
 
 
 jobs:
